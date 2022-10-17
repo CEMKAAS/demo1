@@ -14,6 +14,7 @@ public class SalesManager {
         }
         return max;
     }
+
     public long min() {
         long min = sales[0];
         for (long sale : sales) {
